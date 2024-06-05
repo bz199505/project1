@@ -12,7 +12,7 @@ import { StockData } from "./types/stockData"
 const { Title } = Typography
 const { Content } = Layout
 
-const FinancialDashboard: React.FC = () => {
+const App: React.FC = () => {
   const [financialData, setFinancialData] = useState<FinancialData | null>(
     dummyData
   )
@@ -69,4 +69,4 @@ const FinancialDashboard: React.FC = () => {
   )
 }
 
-export default FinancialDashboard
+export default App
