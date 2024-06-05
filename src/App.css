@@ -1,0 +1,16 @@
+/* App.css */
+.App {
+  min-height: 100vh; /* Ensures the app takes at least the full height of the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.Content {
+  flex: 1; /* Ensures content grows to take up remaining space */
+}
+
+.Footer {
+  background-color: #f0f2f5;
+  padding: 24px;
+  text-align: center; /* Center-aligns the text */
+}
