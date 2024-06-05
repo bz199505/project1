@@ -1,7 +1,7 @@
 import axios from "axios"
 import { StockData } from "../types/stockData"
 
-const API_KEY = "ZQNM429OMSFCWV15"
+const API_KEY = "PVQXQKIZWBNS4W5U"
 const BASE_URL = "https://www.alphavantage.co/query"
 
 export const fetchStockData = async (symbol: string): Promise<StockData[]> => {
